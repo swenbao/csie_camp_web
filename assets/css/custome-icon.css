@@ -1,0 +1,4 @@
+/* Make the favicon round */
+#favicon {
+    border-radius: 50%;
+}
