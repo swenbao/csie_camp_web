@@ -26,6 +26,7 @@
     margin-left: 10px;
 }
 
-.blur{
-    filter: blur(10px);
+
+.pt-80{
+    padding-top: 80px;
 }
