@@ -123,7 +123,7 @@ Coded by www.creative-tim.com
           <div class="col px-0">
             <div class="row align-items-center justify-content-center">
               <div class="col-lg-6 text-center">
-                <h1 class="text-white display-1">這裡要放東西嗎</h1>
+                <span class="text-white display-1" id="typed"></span>
                 <h2 class="display-4 font-weight-normal text-white">07/09 ~ 07/15</h2>
                 <div class="mt-15">
                 </div>
@@ -325,6 +325,7 @@ Coded by www.creative-tim.com
   <script src="./assets/js/plugins/moment.min.js"></script>
   <script src="./assets/js/plugins/datetimepicker.js" type="text/javascript"></script>
   <script src="./assets/js/plugins/bootstrap-datepicker.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
   <!-- Control Center for Argon UI Kit: parallax effects, scripts for the example pages etc -->
   <!--  Google Maps Plugin    -->
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
@@ -336,6 +337,14 @@ Coded by www.creative-tim.com
         token: "ee6fab19c5a04ac1a32a645abde4613a",
         application: "argon-design-system-pro"
       });
+  </script>
+  <script>
+					var typed = new Typed('#typed', {
+						strings: ["^1000成大<strong><font color= #F9E79F>資訊</font></strong>營", "請資援<strong><font color= #F1948A>收營</font></strong>"], 
+						typeSpeed: 20, //打字速度
+            backSpeed: 15,
+					});
+				
   </script>
 </body>
 
