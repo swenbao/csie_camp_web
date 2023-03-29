@@ -32,3 +32,8 @@
 .pt-80{
     padding-top: 80px;
 }
+
+.center {
+    width: 50%;
+    margin: 0 auto;
+  }
