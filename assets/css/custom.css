@@ -45,3 +45,11 @@
     backdrop-filter: blur(2em) !important;
     
 }
+
+.typed-cursor{
+    font-size: 60px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
