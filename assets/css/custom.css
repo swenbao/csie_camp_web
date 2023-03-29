@@ -17,6 +17,7 @@
 }
 
 .cover{
+    min-height: 560px !important;
     /* background-color: #283747  !important; */
     background-image: url('../img/background/blur5.jpg');
     background-color: #f5f5f5;
@@ -36,6 +37,11 @@
 .center {
     width: 50%;
     margin: 0 auto;
+}
+
+.nav-position {
+    width: 100%;
+    position: fixed;
 }
 
 .nav-background { 
