@@ -84,7 +84,7 @@ section {
 
 body {
   margin: 0;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Patrick Hand','Noto Serif TC', sans-serif;
   /* , 'Noto Sans TC', sans-serif; */
 
   font-size: 1rem;
