@@ -1,10 +1,10 @@
-@font-face {
+/* @font-face {
   font-family: "JasonHandwriting3-Regular";
   src: url(https://cdn.jsdelivr.net/gh/max32002/JasonHandWritingFonts@20220828/webfont/JasonHandwriting3-Regular.woff2) format("woff2");
-}
+} */
 
 html{
-    font-size: 130%;
+    font-size: 110%;
     scroll-behavior: smooth;
 }
 .h-45 {
@@ -62,7 +62,8 @@ html{
 }
 
 .typed-cursor{
-    font-size: 60px;
+    font-family: 'Noto Sans TC';
+    font-size: 50px;
     color: #ECF0F1;
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;

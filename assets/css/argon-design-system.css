@@ -84,7 +84,7 @@ section {
 
 body {
   margin: 0;
-  font-family: 'Patrick Hand',"JasonHandwriting3-Regular";
+  font-family: 'Noto Sans TC', sans-serif;
   /* , 'Noto Sans TC', sans-serif; */
   font-size: 1rem;
   font-weight: 400;
