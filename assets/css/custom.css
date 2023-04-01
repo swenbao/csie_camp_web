@@ -83,6 +83,10 @@ html{
     background-color: #EBF5FB;
 }
 
+.gray-background {
+    background-color: #E5E7E9;
+}
+
 .text-regular{
     font-weight: 500;
 }
