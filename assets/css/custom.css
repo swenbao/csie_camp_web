@@ -28,10 +28,23 @@ html{
 .cover{
     min-height: 580px !important;
     /* background-color: #283747  !important; */
-    background-image: url('../img/background/blur5.jpg');
+    background-size: cover;
+    background-image: url('../img/background/origin.svg');
     background-color: #f5f5f5;
-    background-position: 50% 70%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 769px) {
+  .cover{
+    min-height: 580px !important;
+    /* background-color: #283747  !important; */
+    background-size: cover;
+    background-image: url('../img/background/origin-m.jpg');
+    background-color: #f5f5f5;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    }
 }
 
 .ml-10{
@@ -55,7 +68,7 @@ html{
 
 .nav-background { 
     /* opacity: 0.8 !important; */
-    background-color: rgba(214, 234, 248 , 0.6) !important;
+    background-color: rgba(202, 207, 210, 0.6) !important;
     -webkit-backdrop-filter: blur(2em) !important;
     backdrop-filter: blur(2em) !important;
     
@@ -92,5 +105,40 @@ html{
 }
 
 .text-shadow {
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.dark-text {
+    color: #1B2631 !important;     
+}
+
+.backdrop-blur {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    -webkit-backdrop-filter: blur(1em) !important;
+    backdrop-filter: blur(2em) !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+.fit-content {
+    position: absolute !important
+    float: left !important;
+    width: auto !important;
+    height: 100% !important;
+}
+
+h1 {
+    color: #D4AC0D !important;
+}
+
+h2 {
+    color: #D4AC0D !important;
+}
+
+h3 {
+    color: #D4AC0D !important;
+}
+
+h4 {
+    color: #D4AC0D !important;
 }
