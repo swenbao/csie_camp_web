@@ -29,10 +29,22 @@ html{
     min-height: 580px !important;
     /* background-color: #283747  !important; */
     background-size: cover;
-    background-image: url('../img/background/origin.jpg');
+    background-image: url('../img/background/origin.svg');
     background-color: #f5f5f5;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 769px) {
+  .cover{
+    min-height: 580px !important;
+    /* background-color: #283747  !important; */
+    background-size: cover;
+    background-image: url('../img/background/origin-m.jpg');
+    background-color: #f5f5f5;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    }
 }
 
 .ml-10{
@@ -113,4 +125,20 @@ html{
     float: left !important;
     width: auto !important;
     height: 100% !important;
+}
+
+h1 {
+    color: #D4AC0D !important;
+}
+
+h2 {
+    color: #D4AC0D !important;
+}
+
+h3 {
+    color: #D4AC0D !important;
+}
+
+h4 {
+    color: #D4AC0D !important;
 }
