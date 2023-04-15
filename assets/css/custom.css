@@ -142,3 +142,9 @@ h3 {
 h4 {
     color: #D4AC0D !important;
 }
+
+
+.b-t-s-1 {
+    border: none;
+    border-top: solid 1px;
+}
