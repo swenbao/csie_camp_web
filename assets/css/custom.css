@@ -121,7 +121,7 @@ html{
 }
 
 .fit-content {
-    position: absolute !important
+    position: absolute !important;
     float: left !important;
     width: auto !important;
     height: 100% !important;
